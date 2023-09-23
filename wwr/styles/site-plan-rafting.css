@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Heebo:wght@300;400;500&display=swap');
+
+:root {
+    --secondary-color: #A9B8E4;
+    --primary-color: #2a4f9e;
+    --accent1-color: #3d2d08;
+    --accent2-color: #D6A319;
+    --body-font-color: rgb(30, 30, 30);
+
+    --heading-font: "Calistoga", Verdana, sans-serif;
+    --paragraph-font: "Heebo", sans-serif;
+    --navigation-background-color: #89857a;
+    --navigation-hover-background-color: #cbccbd;
+    --navigation-link-color: --accent1-color;
+    --navigation-hover-link-color: var(--secondary-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--paragraph-font);
+    font-variant-caps: all-small-caps;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+
+    color: var(--primary-color);
+}
+
+h1 {
+    color: var(--accent1-color);
+}
+
+body {
+    font-family: var(--paragraph-font);
+    color: var(--body-font-color);
+
+    max-width: 960px;
+    padding: 20px;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--navigation-background-color);
+}
+
+p {
+    padding: 0 20px;
+}
+
+nav {
+    background-color: var(--navigation-background-color);
+    font-size: -1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1200px;
+}
+
+nav a {
+    color: var(--navigation-link-color);
+    text-decoration: wavy;
+    padding: 1rem 2rem;
+}
+
+
+nav a:link, nav a:visited {
+    color: var(--navigation-link-color);
+}
+
+nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-background-color)
+}
