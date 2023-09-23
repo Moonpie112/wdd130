@@ -47,7 +47,7 @@ p {
 
 nav {
     background-color: var(--navigation-background-color);
-    font-size: -1.2rem;
+    font-size: .8rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
