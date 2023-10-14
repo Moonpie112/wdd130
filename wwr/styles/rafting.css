@@ -33,7 +33,8 @@ body {
     font-family: var(--paragraph-font);
     color: var(--body-font-color);
 
-    max-width: 1920px;
+    width: 1200px;
+    margin: 0 auto;
     padding: 20px;
 }
 
