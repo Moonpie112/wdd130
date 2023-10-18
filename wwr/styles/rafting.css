@@ -85,7 +85,13 @@ img[src="images/about-us_smiling-woman.jpg"] {
 }
 
 /* B L O C K */
-nav {
+header {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax (50px, 1fr));
+    grid-template-columns: repeat(5, 1fr);
+}
+
+h2, .history {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
