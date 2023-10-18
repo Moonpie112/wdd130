@@ -84,4 +84,8 @@ img[src="images/about-us_smiling-woman.jpg"] {
     text-decoration: none;
 }
 
-
+/* B L O C K */
+nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (50px, 1fr));
+}
