@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/quiz.css">
     <title>WDD130 | Quiz Form | Kayla Moon</title>
 </head>
 <body>
-    
+    <header>
+        <h1>WDD 130 Quiz</h1>
+    </header>
+    <main>
+    <form>
+    <fieldset> 
+    <legend>Section 1</legend>   
+        <div class="question">
+            <label for="q1">How do you change the background of an element?</label>
+            <input type="text" id="q1" name="q1">
+        </div>
+
+        <div class="question">
+            <label for="q2">What is one way you can center the title of an article on a webpage?</label>
+            <textarea name="q2" id="q2" cols="30" rows="10"></textarea>
+        </div>
+        
+        <div class="question">
+            <label for="q3">How do you select a class in CSS?</label>
+            <select name="q3" id="q3">
+                <option value="blank" selected disabled>Choose one</option>
+                <option value="Option 1">--class-name;</option>
+                <option value="Option 2">.class-name;</option>
+                <option value="Option 3">class-name;</option>
+                <option value="Option4">!class-name;</option>
+            </select>
+            </div>
+        
+        <div class="question">
+            <label for="q4">What is the hexcode for the color black</label>
+            <input type="number" id="q4" name="q4">
+        </div>
+        <button type="submit">Submit Quiz</button>
+    </fieldset>
+    </form>
+    </main>
+    <footer>
+        ©2023 | Kayla Moon | WDD130
+    </footer>
 </body>
 </html>
