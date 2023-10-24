@@ -92,8 +92,37 @@ img[src="images/about-us_smiling-woman.jpg"] {
 /* B L O C K */
 header {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: 120px 1fr;
+    background-color: var(--navigation-background-color);
+    padding: 0 8px;
+    margin-bottom: 16px;
+    border-bottom: var(--accent1-color) solid 1px;
 }
+
+header img {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 16px;
+}
+
+nav a {
+    margin: 0 16px;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: var(--navigation-link-color);
+    font-weight: 500;
+}
+
+nav a:hover {
+    background-color: var(--navigation-hover-link-color);
+    border-radius: 8px;
+}
+
 
 h2, .history {
     display: flex;
