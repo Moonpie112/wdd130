@@ -174,7 +174,6 @@ h2, .history {
     font-weight: 300;
 }
 
-
 .employee {
      width: 100%;
      display: flex;
@@ -295,3 +294,133 @@ h2, .history {
     background-color: var(--secondary-color);
 }
 
+/* TRIPS PAGE */
+
+.top-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -16px;
+}
+
+.top-section .hero-banner {
+    width: 1160px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-section .hero-banner img {
+    align-self: center;
+}
+
+.top-section h1 {
+    font-size: 48px;
+    margin-top: 16px;
+    font-weight: 300;
+}
+
+.top-section .horiz-trips {
+    margin-top: 16px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 36px;
+}
+
+.top-section .horiz-trips .quick-trips {
+    width: 324px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-section .horiz-trips .quick-trips .information {
+    margin-bottom: 16px;
+}
+
+.top-section .horiz-trips .quick-trips .information .river-picture {
+    width: 275px;
+    height: 275px;
+    overflow: hidden;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-section .horiz-trips .quick-trips button {
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 200;
+}
+
+.top-section .horiz-trips .quick-trips button:hover {
+    background-color: var(--secondary-color);
+}
+
+.information-table {
+    margin: 112px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table table {
+    border-collapse: collapse;
+    font-size: 12px;
+    min-width: 800px;
+}
+
+.table table h2 {
+    color: var(--primary-color);
+    font-size: 48px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+.table table .top {
+    background-color: var(--secondary-color);
+}
+
+.table table th {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.table table th,
+.table table td {
+    padding: 12px 15px;
+}
+
+.table table tr {
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.information-table .button {
+    background-color: #2a4f9e;
+    color: #fff;
+    font-size: 16px;
+    padding: 16px 425px;
+    border: none;
+    margin-top: 16px;
+    text-decoration: none;
+}
+
+.information-table .button:hover {
+    background-color: #A9B8E4;
+}
